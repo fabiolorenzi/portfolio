@@ -65,7 +65,7 @@ function Home() {
                     <img src={wordpressLogo} alt="wordpress" />
                 </div>
             </div>
-            <a id="downloadButton" href={cv} download="lorenzi_fabio_cv">DOWNLOAD CV</a>
+            <a className="downloadButton" href={cv} download="lorenzi_fabio_cv">DOWNLOAD CV</a>
         </div>
     );
 };
