@@ -179,6 +179,154 @@ body {
     margin: 0;
 }
 
+/*---------------------PROJECTS--------------------*/
+
+.projectsPage {
+    display: block;
+    margin-top: 40px;
+    background-image: url("./img/background_image.jpg");
+    padding-bottom: 80px;
+}
+
+.projectsPage h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+}
+
+/*----------SINGLE_PROJECT----------*/
+
+.singleProject {
+    display: block;
+    background-color: #2e2e2e;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.imageContainer {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.imageContainer:hover .image {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    transition-duration: 0.3s;
+}
+
+.image::before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+  
+.imageContainer:hover .image:before {
+    display: block;
+}
+
+.image span {
+    display: none;
+    color: #ffffff;
+    position: absolute;
+    padding: 32%;
+    padding-top: 45%;
+}
+
+.imageContainer:hover .image span {
+    display: block;
+}
+
+#technicalChallenge {
+    background-image: url("./img/technical_challenge_image.JPG");
+}
+
+#fabianLarries {
+    background-image: url("./img/fabianlarries_image.JPG");
+}
+
+#kantenya {
+    background-image: url("./img/kantenya_image.JPG");
+}
+
+#weather {
+    background-image: url("./img/weather_image.JPG");
+}
+
+#eye {
+    background-image: url("./img/eye_image.JPG");
+}
+
+#todo {
+    background-image: url("./img/todo_image.JPG");
+}
+
+#calculator {
+    background-image: url("./img/calculator_image.JPG");
+}
+
+.nameProject {
+    display: block !important;
+    color: #ffffff;
+    font-size: 25px !important;
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    margin-bottom: 0 !important;
+}
+
+.codeButton {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #ff0000;
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.codeButton:hover {
+    background-color: #fffb00;
+    color: #000000;
+    transition-duration: 0.3s;
+}
+
 @media only screen and (max-width: 1000px) {
 
     /*--------------------HEADER--------------------*/
@@ -224,6 +372,12 @@ body {
         width: 120px;
         height: 120px;
         padding: 30px;
+    }
+
+    /*---------------------PROJECTS--------------------*/
+
+    .projects {
+        width: 90%;
     }
 }
 
@@ -347,5 +501,11 @@ body {
         width: 100px;
         height: 100px;
         padding: 20px;
+    }
+
+    /*---------------------PROJECTS--------------------*/
+
+    .projects {
+        width: 100%;
     }
 }
