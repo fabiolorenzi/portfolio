@@ -164,6 +164,21 @@ body {
     margin: auto;
 }
 
+/*--------------------FOOTER--------------------*/
+
+.footer {
+    display: block;
+    width: 100%;
+    background-color: #000000;
+}
+
+.footer h1 {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 20px 50px 20px;
+    margin: 0;
+}
+
 @media only screen and (max-width: 1000px) {
 
     /*--------------------HEADER--------------------*/
