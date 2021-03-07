@@ -17,7 +17,7 @@ function BurgerMenu() {
             </div>
             <div className="hidden_menu" id={open ? "hidden_menu_open" : "hidden_menu_closed"}>
                 <nav>
-                    <NavLink to="/" className="menu2" activeClassName="sel2" exact>HOME</NavLink>
+                    <NavLink to="/portfolio" className="menu2" activeClassName="sel2" exact>HOME</NavLink>
                     <NavLink to="/projects" className="menu2" activeClassName="sel2">PROJECTS</NavLink>
                     <NavLink to="/contacts" className="menu2" activeClassName="sel2">CONTACTS</NavLink>
                 </nav>
