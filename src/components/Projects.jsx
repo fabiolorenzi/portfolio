@@ -8,6 +8,12 @@ function Projects() {
             <h1>PROJECTS</h1>
             <div className="projects">
                 <SingleProject
+                    name="Quicky Pizza"
+                    image="quicky_pizza"
+                    conn="https://fabiolorenzi.github.io/quicky-pizza"
+                    code="https://github.com/fabiolorenzi/quicky-pizza"
+                />
+                <SingleProject
                     name="Fabian Larries"
                     image="fabianLarries"
                     conn="https://fabiolorenzi.github.io/fabianlarries"

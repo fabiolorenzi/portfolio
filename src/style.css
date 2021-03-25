@@ -303,6 +303,10 @@ body {
     background-image: url("./img/calculator_image.JPG");
 }
 
+#quicky_pizza {
+    background-image: url("./img/quicky-pizza_image.JPG");
+}
+
 .nameProject {
     display: block !important;
     color: #ffffff;
