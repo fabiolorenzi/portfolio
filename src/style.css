@@ -307,6 +307,10 @@ body {
     background-image: url("./img/quicky-pizza_image.JPG");
 }
 
+#metronome {
+    background-image: url("./img/metronome_image.jpg");
+}
+
 .nameProject {
     display: block !important;
     color: #ffffff;
