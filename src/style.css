@@ -311,6 +311,10 @@ body {
     background-image: url("./img/metronome_image.jpg");
 }
 
+#drum-machine {
+    background-image: url("./img/drum_machine_image.JPG");
+}
+
 .nameProject {
     display: block !important;
     color: #ffffff;
