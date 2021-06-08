@@ -9,6 +9,8 @@ import reactLogo from "../img/react_logo.png";
 import reduxLogo from "../img/redux_logo.png";
 import gitLogo from "../img/git_logo.png";
 import wordpressLogo from "../img/wordpress_logo.png";
+import jestLogo from "../img/jest_logo.png";
+import sassLogo from "../img/sass_logo.png";
 import cv from "../doc/lorenzi_fabio_cv.pdf";
 
 function Home() {
@@ -63,6 +65,8 @@ function Home() {
                     <img src={reduxLogo} alt="redux" />
                     <img src={gitLogo} alt="git" />
                     <img src={wordpressLogo} alt="wordpress" />
+                    <img src={jestLogo} alt="jest" />
+                    <img src={sassLogo} alt="sass" />
                 </div>
             </div>
             <a className="downloadButton" href={cv} download="lorenzi_fabio_cv">DOWNLOAD CV</a>
