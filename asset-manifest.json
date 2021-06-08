@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8c7eff3b.chunk.css",
-    "main.js": "/portfolio/static/js/main.b921be17.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b921be17.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.5d37f8f8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5d37f8f8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
     "static/js/2.eb6b0132.chunk.js": "/portfolio/static/js/2.eb6b0132.chunk.js",
@@ -14,17 +14,19 @@
     "static/media/css_logo.1334cb45.png": "/portfolio/static/media/css_logo.1334cb45.png",
     "static/media/git_logo.dfdd0989.png": "/portfolio/static/media/git_logo.dfdd0989.png",
     "static/media/javascript_logo.ba0a9285.png": "/portfolio/static/media/javascript_logo.ba0a9285.png",
+    "static/media/jest_logo.95bffbbd.png": "/portfolio/static/media/jest_logo.95bffbbd.png",
     "static/media/lorenzi_fabio_cv.eb0caaac.pdf": "/portfolio/static/media/lorenzi_fabio_cv.eb0caaac.pdf",
     "static/media/photo.e7ad09cd.png": "/portfolio/static/media/photo.e7ad09cd.png",
     "static/media/python_logo.d8b377f0.png": "/portfolio/static/media/python_logo.d8b377f0.png",
     "static/media/react_logo.283f9f86.png": "/portfolio/static/media/react_logo.283f9f86.png",
     "static/media/redux_logo.b3b939c6.png": "/portfolio/static/media/redux_logo.b3b939c6.png",
+    "static/media/sass_logo.c556a176.png": "/portfolio/static/media/sass_logo.c556a176.png",
     "static/media/wordpress_logo.eedb3ed8.png": "/portfolio/static/media/wordpress_logo.eedb3ed8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
     "static/js/2.eb6b0132.chunk.js",
     "static/css/main.8c7eff3b.chunk.css",
-    "static/js/main.b921be17.chunk.js"
+    "static/js/main.5d37f8f8.chunk.js"
   ]
 }
