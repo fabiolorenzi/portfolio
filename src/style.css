@@ -315,6 +315,10 @@ body {
     background-image: url("./img/drum_machine_image.JPG");
 }
 
+#tha-shirt {
+    background-image: url("./img/tha-shirt_image.JPG");
+}
+
 .nameProject {
     display: block !important;
     color: #ffffff;

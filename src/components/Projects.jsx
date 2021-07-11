@@ -8,6 +8,12 @@ function Projects() {
             <h1>PROJECTS</h1>
             <div className="projects">
                 <SingleProject
+                    name="Tha-Shirt"
+                    image="tha-shirt"
+                    conn="https://confident-villani-88cb2d.netlify.app/"
+                    code="https://github.com/fabiolorenzi/tha-shirt"
+                />
+                <SingleProject
                     name="Drum Machine"
                     image="drum-machine"
                     conn="https://fabiolorenzi.github.io/drum-machine"
