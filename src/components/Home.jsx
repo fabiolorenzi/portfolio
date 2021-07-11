@@ -11,6 +11,9 @@ import gitLogo from "../img/git_logo.png";
 import wordpressLogo from "../img/wordpress_logo.png";
 import jestLogo from "../img/jest_logo.png";
 import sassLogo from "../img/sass_logo.png";
+import node from "../img/node_logo.png";
+import mongodb from "../img/mongodb_logo.png";
+import express from "../img/express_logo.png";
 import cv from "../doc/lorenzi_fabio_cv.pdf";
 
 function Home() {
@@ -67,6 +70,9 @@ function Home() {
                     <img src={wordpressLogo} alt="wordpress" />
                     <img src={jestLogo} alt="jest" />
                     <img src={sassLogo} alt="sass" />
+                    <img src={node} alt="node" className="formatImg1" />
+                    <img src={express} alt="express" className="formatImg2" />
+                    <img src={mongodb} alt="mongodb" className="formatImg1" />
                 </div>
             </div>
             <a className="downloadButton" href={cv} download="lorenzi_fabio_cv">DOWNLOAD CV</a>

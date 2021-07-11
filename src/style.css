@@ -150,6 +150,16 @@ body {
     padding: 50px;
 }
 
+.formatImg1 {
+    width: 200px !important;
+    height: 150px;
+}
+
+.formatImg2 {
+    width: 320px !important;
+    height: 150px;
+}
+
 .downloadButton {
     display: block;
     color: #ffffff;
